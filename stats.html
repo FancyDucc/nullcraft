@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Nullcraft — Stats</title>
+
+  <meta property="og:title" content="Nullcraft — Stats" />
+  <meta property="og:description" content="Our KPIs are unparalleled: zeros across the board." />
+  <meta property="og:url" content="https://example.com/stats.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/img/void-stats.png" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Nullcraft — Stats" />
+  <meta name="twitter:description" content="zero latency, zero impact, infinite confidence." />
+  <meta name="twitter:image" content="/assets/img/void-stats.png" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="/">nullcraft</a>
+      <nav class="navlinks" aria-label="primary">
+        <a href="/">Home</a>
+        <a href="/stats.html">Stats</a>
+        <a href="/testimonials.html">Testimonials</a>
+        <a href="/careers.html">Careers</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section reveal">
+      <h1>stats</h1>
+      <p class="lede">every figure is verified by our in-house department of numbers that don’t exist.</p>
+      <div class="grid grid--3">
+        <div class="kpi"><span class="num" data-to="0">512</span><label>monthly active users</label></div>
+        <div class="kpi"><span class="num" data-to="0">99</span><label>nps</label></div>
+        <div class="kpi"><span class="num" data-to="0">404</span><label>errors</label></div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <h2>operational excellence</h2>
+      <div class="grid grid--2">
+        <div class="kpi"><span class="num" data-to="0">1337</span><label>apm traces</label></div>
+        <div class="kpi"><span class="num" data-to="0">0</span><label>deploys per day</label></div>
+      </div>
+      <p class="help">numbers animate gracefully to their true value: zero.</p>
+    </section>
+
+    <section class="marquee reveal" aria-label="jargon">
+      <div class="track"><span>resilience</span><span>observability</span><span>north-star drift</span><span>qoq apathy</span><span>tps reports</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> nullcraft</footer>
+  <script type="module" src="/script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>

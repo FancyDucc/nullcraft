@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Nullcraft — Careers</title>
+
+  <meta property="og:title" content="Nullcraft — Careers" />
+  <meta property="og:description" content="apply to nothing. be part of everything." />
+  <meta property="og:url" content="https://example.com/careers.html" />
+  <meta property="og:image" content="/assets/img/void-careers.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Nullcraft — Careers" />
+  <meta name="twitter:description" content="zero-impact roles with infinite alignment." />
+  <meta name="twitter:image" content="/assets/img/void-careers.png" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="/">nullcraft</a>
+      <nav class="navlinks" aria-label="primary">
+        <a href="/">Home</a>
+        <a href="/stats.html">Stats</a>
+        <a href="/testimonials.html">Testimonials</a>
+        <a href="/careers.html">Careers</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section reveal">
+      <h1>careers</h1>
+      <p class="lede">join a team where every day you accomplish precisely what you set out to: nothing.</p>
+
+      <div class="section">
+        <h2>open roles</h2>
+        <ul>
+          <li><strong>senior vp of inaction</strong> — 15+ years of doing less with more.</li>
+          <li><strong>principal nihilist engineer</strong> — ownership of empty roadmaps.</li>
+          <li><strong>head of alignment</strong> — align stakeholders around no outcomes.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>apply now</h2>
+        <form id="careerForm" class="form" novalidate>
+          <div class="row">
+            <div><label>full name</label><input required placeholder="pat patterson"/></div>
+            <div><label>email</label><input required type="email" placeholder="pat@example.com"/></div>
+          </div>
+          <div class="row">
+            <div><label>role of interest</label>
+              <select required>
+                <option value="">select a void</option>
+                <option>senior vp of inaction</option>
+                <option>principal nihilist engineer</option>
+                <option>head of alignment</option>
+              </select>
+            </div>
+            <div><label>resume</label><input type="file" accept=".pdf,.txt,.md"/></div>
+          </div>
+          <div><label>cover letter</label><textarea rows="6" placeholder="explain how you will exceed our low expectations"></textarea></div>
+          <div class="help">by submitting, you agree your application will be lovingly archived into oblivion.</div>
+          <button type="submit" class="btn btn--primary">submit application</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> nullcraft</footer>
+  <script type="module" src="/script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>

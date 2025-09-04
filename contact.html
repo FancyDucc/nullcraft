@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Nullcraft — Contact</title>
+
+  <meta property="og:title" content="Nullcraft — Contact" />
+  <meta property="og:description" content="reach out. we’re listening. we won’t act." />
+  <meta property="og:url" content="https://example.com/contact.html" />
+  <meta property="og:image" content="/assets/img/void-contact.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Nullcraft — Contact" />
+  <meta name="twitter:description" content="send a message that gets carefully filed under misc." />
+  <meta name="twitter:image" content="/assets/img/void-contact.png" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="/">nullcraft</a>
+      <nav class="navlinks" aria-label="primary">
+        <a href="/">Home</a>
+        <a href="/stats.html">Stats</a>
+        <a href="/testimonials.html">Testimonials</a>
+        <a href="/careers.html">Careers</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section reveal">
+      <h1>contact</h1>
+      <p class="lede">we value your feedback. we also value not doing anything about it.</p>
+      <form id="contactForm" class="form" novalidate>
+        <div class="row">
+          <div><label>name</label><input required placeholder="pat patterson" /></div>
+          <div><label>email</label><input required type="email" placeholder="pat@example.com" /></div>
+        </div>
+        <div><label>subject</label><input required placeholder="just saying hi"/></div>
+        <div><label>message</label><textarea rows="6" required placeholder="pour your heart out here"></textarea></div>
+        <div class="help">by sending this message, you consent to us ignoring it with grace.</div>
+        <button type="submit" class="btn btn--primary">send message</button>
+      </form>
+    </section>
+
+    <section class="section reveal">
+      <h2>office hours</h2>
+      <p class="lede">mon–fri, whenever. sat–sun, never. holidays observed at random.</p>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> nullcraft</footer>
+  <script type="module" src="/script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
